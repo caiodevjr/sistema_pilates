@@ -35,11 +35,19 @@ body{
     margin-bottom: 25px;
 }
 
-.login-header .logo{
-    font-size: 36px;
-    color: #2c3e50;
-    margin-bottom: 10px;
+.login-header .logo {
+    margin-bottom: 15px; 
+    text-align: center;  
 }
+
+.login-header .logo img {
+    width: 120px;          
+    height: 120px;         
+    border-radius: 50%;    
+    object-fit: cover;     
+    display: inline-block; 
+}
+
 
 .login-header h1{
     font-size: 24px;
