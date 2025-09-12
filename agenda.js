@@ -11,7 +11,6 @@ document.querySelectorAll(".dia-semana button").forEach(day => {
   day.addEventListener("click", () => {
     document.querySelectorAll(".dia-semana button").forEach(d => d.classList.remove("ativo"));
     day.classList.add("ativo");
-    alert(`Dia selecionado: ${day.textContent}`);
   });
 });
 
